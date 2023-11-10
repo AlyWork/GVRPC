@@ -20,14 +20,13 @@ hr {
     font-weight: bold;
 }
 
-.company-info {
+.company-info > :not(img) {
     background-color: white;
     text-align: center;
     width: 75%;
     margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
-
 }
 
 .concrete {
@@ -66,8 +65,8 @@ hr {
 
 .img-path {
     width: 100%;
-    position:  absolute;
-    margin: 0;
+    position:  fixed;
+    margin: -50px 0;
     z-index: -3;
 }
 
